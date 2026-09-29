@@ -69,8 +69,11 @@
 }
 @media print { .masthead { position: static; } .masthead nav { display: none; } }
 
+.organizers { grid-template-columns: 1fr; }
+.organizer-contact { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem 1rem; }
+.organizers .organizer-email { font-weight: 400; font-size: .95rem; overflow-wrap: anywhere; }
 footer .footer-content { display: block; }
-#cmt-acknowledgment { padding: 0; font-size: .875rem; line-height: 1.55; }
-#cmt-acknowledgment h2 { margin: 0 0 .4rem; padding: 0; border: 0; font-size: 1rem; font-weight: 600; color: var(--muted); letter-spacing: normal; }
+#cmt-acknowledgment { padding: 0; font-size: .75rem; line-height: 1.55; }
+#cmt-acknowledgment h2 { margin: 0 0 .4rem; padding: 0; border: 0; font-size: .875rem; font-weight: 600; color: var(--muted); letter-spacing: normal; }
 #cmt-acknowledgment p { margin: 0; }
 .footer-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--line); }
