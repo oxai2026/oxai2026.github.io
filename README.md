@@ -10,7 +10,8 @@ Publish workshop content only to `oxai2026/oxai2026.github.io` (`origin` in this
 
 ## Content
 
-- The local OXAI_2026_FDraft.pdf proposal is the source for the 2026 scope, five topic areas, contribution formats, and organizer details.
+- The local OXAI_2026_FDraft.pdf proposal is the source for the 2026 scope, five topic areas, and organizer details.
+- The organizer's September 28 instructions replace the proposal's contribution format: talk abstracts up to 2 pages and papers up to 5 pages. Limits cover the complete PDF, including all text, tables, figures, references, appendices, and other content. The workshop remains non-archival.
 - Organizer instructions override the proposal deadlines: submissions October 18, 2026 (AoE); notifications October 23, 2026.
 - The October 5, 2024 archived OXAI site informs the call-first structure. CMT site request 27138 was approved. Submissions are open at https://cmt3.research.microsoft.com/OXAI2026; organizer email addresses are for questions only.
 - Paper Submission and Edit Submission are enabled in CMT until October 19, 2026, 05:00 Pacific Daylight Time, covering the full October 18 AoE deadline. CMT's time selector uses quarter-hour increments. Notification and final-material stages are separate from opening submissions.
