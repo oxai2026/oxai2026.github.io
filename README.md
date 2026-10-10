@@ -17,7 +17,7 @@ Publish workshop content only to `oxai2026/oxai2026.github.io` (`origin` in this
 - Organizer instructions override the proposal deadlines: submissions October 18, 2026 (AoE); notifications October 28, 2026; final presenter materials and camera-ready papers November 3, 2026. The September 29 notification-date change still needs to be applied and verified in CMT once chair access is restored.
 - The October 5, 2024 archived OXAI site informs the call-first structure. CMT site request 27138 was approved. Submissions are open at https://cmt3.research.microsoft.com/OXAI2026; organizer email addresses are for questions only.
 - Paper Submission and Edit Submission are enabled in CMT until October 19, 2026, 05:00 Pacific Daylight Time, covering the full October 18 AoE deadline. CMT's time selector uses quarter-hour increments. Notification and final-material stages are separate from opening submissions.
-- No Program navigation or schedule is published. The organizer selected November 10, 2026, the first day of CASCON programming, as the workshop date. Final materials are due one week earlier, November 3.
+- No Program navigation or schedule is published. The organizer selected November 11, 2026, the second day of CASCON programming, as the workshop date. Final materials are due November 3.
 - CASCON's official 2026 site supplies conference and registration links. Its overall dates are November 9–12; CSER is November 9, followed by CASCON November 10–12.
 
 Edit `index.html` for content and `styles.css` for presentation. There is no build step or dependency installation.
