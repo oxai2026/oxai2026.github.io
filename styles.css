@@ -91,3 +91,14 @@ footer .footer-content { display: block; }
 .program-table .program-session th{font-weight:650}
 @media(max-width:700px){.program-table{font-size:.85rem;min-width:620px}.program-table th,.program-table td{padding:.7rem}.program-table th:first-child{width:115px}.program-table th:last-child{width:150px}}
 @media print{#program{break-inside:auto}.program-table tr{break-inside:avoid}}
+/* Keynote speaker profiles and source portraits. */
+.keynote{padding:1.8rem 0 2rem;border-bottom:1px solid var(--line)}
+.keynote:last-child{border-bottom:0;padding-bottom:0}
+.keynote-speaker{display:grid;grid-template-columns:180px 1fr;gap:1.5rem;align-items:center;margin-bottom:1.5rem}
+.keynote-speaker img{display:block;width:180px;height:210px;object-fit:cover;object-position:center top;border-radius:4px;background:var(--pale)}
+.keynote-speaker h3{font-size:1.5rem;margin:0}
+.keynote-speaker p{margin:.4rem 0}
+.keynote>h3{font-size:1.35rem;margin-top:1rem}
+.keynote h4{color:var(--navy);font-size:1.05rem;margin:1.3rem 0 .35rem}
+.keynote h4+p{margin-top:0}
+@media(max-width:700px){.keynote-speaker{grid-template-columns:120px 1fr;gap:1rem}.keynote-speaker img{width:120px;height:150px}.keynote-speaker h3{font-size:1.3rem}.masthead nav a{flex-basis:33%}}

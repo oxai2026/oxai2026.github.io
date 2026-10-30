@@ -1,155 +1,179 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OXAI 2026 | Call for Contributions</title>
-  <meta name="description" content="The 2nd International Workshop on Observability and Explainability of AI Systems, co-located with CASCON 2026. Submission deadline extended to Tuesday, October 20, 2026, at 11:59 PM Anywhere on Earth (AoE). Submit a talk abstract of up to 2 pages or a paper of up to 4 pages.">
-  <link rel="canonical" href="https://oxai2026.github.io/">
-  <meta name="theme-color" content="#163b56">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23163b56'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='white' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%2368d1cb'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css?v=20261028-program">
-</head>
-<body>
-  <a class="skip-link" href="#cfc">Skip to the call for contributions</a>
-  <header class="masthead">
-    <div class="container heading-layout">
-      <a class="wordmark" href="./" aria-label="OXAI 2026 home"><span class="logo-title">OX<span class="logo-ai">AI</span> 2026</span><span class="logo-description">AI Observability<br>&amp; Explainability</span></a>
-      <div>
-        <h1>The 2nd International Workshop on Observability and Explainability of AI Systems (OXAI 2026)</h1>
-        <div class="event-details">
-          <p>Wednesday, November 11, 2026<br>Toronto, Canada</p>
-          <p>Co-located with <a href="https://conf.researchr.org/home/cascon-2026">CASCON 2026</a><br>The International Conference on Collaborative Advances in Software and COmputiNg (CASCON)<br>November 9–12, 2026</p>
-        </div>
-      </div>
-    </div>
-    <nav class="container" aria-label="Main navigation">
-      <a href="#program">Tentative Program</a>
-      <a href="#cfc">Call for Contributions</a>
-      <a href="#dates">Important Dates</a>
-      <a href="#submission">How to Submit</a>
-      <a href="#organization">Organization</a>
-      <a href="#program-committee">Program Committee</a>
-      <a href="https://conf.researchr.org/attending/cascon-2026/registration">Registration</a>
-      <a href="#past">Past Editions</a>
-    </nav>
-  </header>
-  <main class="container">
-    <section id="program" aria-labelledby="program-title">
-      <h2 id="program-title">Tentative Program</h2>
-      <p class="program-notice"><strong>Tentative program — subject to change.</strong><br>Wednesday, November 11, 2026. All times are local to Toronto.</p>
-      <div class="program-scroll" role="region" aria-label="Workshop schedule" tabindex="0">
-        <table class="program-table">
-          <thead><tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Chair</th></tr></thead>
-          <tbody>
-            <tr class="program-session"><th scope="row">14:45–14:50</th><td>Opening remarks</td><td>All four workshop chairs</td></tr>
-            <tr class="program-session"><th scope="row">14:50–15:35</th><td>Keynote 1 — Talk and Q&amp;A</td><td>Paria Shirani</td></tr>
-            <tr class="program-session"><th scope="row">15:35–16:20</th><td>Session 1 — Understanding and Explaining Agent Behaviour</td><td>Abdelwahab Hamou-Lhadj</td></tr>
-            <tr><th scope="row">15:35–15:50</th><td>OS Noise for Agentic AI: A Kernel-Trace Study of How Container Resource Limits Slow Down and Break AI Coding Agents</td><td></td></tr>
-            <tr><th scope="row">15:50–16:05</th><td>Toward Kernel-Based Detection and Attribution of Agent Policy Violations</td><td></td></tr>
-            <tr><th scope="row">16:05–16:20</th><td>From Plausible Hypotheses to Evidence-Grounded Explanations: Lessons from AgentDebug</td><td></td></tr>
-            <tr class="program-session"><th scope="row">16:20–16:50</th><td>Break</td><td></td></tr>
-            <tr class="program-session"><th scope="row">16:50–17:35</th><td>Keynote 2 — Talk and Q&amp;A</td><td>Yan Liu</td></tr>
-            <tr class="program-session"><th scope="row">17:35–18:50</th><td>Session 2 — Diagnosing AI Systems and Evaluating Their Outputs</td><td>Naser Ezzati-Jivan</td></tr>
-            <tr><th scope="row">17:35–17:50</th><td>Engineering Explainability Across the AI Software Lifecycle<br><span class="note">Yan Liu — Concordia University</span></td><td></td></tr>
-            <tr><th scope="row">17:50–18:05</th><td>TraceAssist: Answering Kernel Trace Questions in Natural Language</td><td></td></tr>
-            <tr><th scope="row">18:05–18:20</th><td>LLM-based Vulnerability Repair: You Still Need All your Fingers</td><td></td></tr>
-            <tr><th scope="row">18:20–18:35</th><td>Explaining Continuous-Authentication Decisions Without Leaking the User</td><td></td></tr>
-            <tr><th scope="row">18:35–18:50</th><td>RL Data Efficiency Without Selection Efficiency: Reassessing Diagnostic-Diversity Sampling for Radiology Impression Generation</td><td></td></tr>
-            <tr class="program-session"><th scope="row">18:50–19:00</th><td>Joint discussion and closing remarks</td><td>All four workshop chairs</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <section id="cfc" aria-labelledby="call-title">
-      <div class="section-heading"><p class="eyebrow">OXAI 2026</p><h2 id="call-title">Call for Contributions</h2></div>
-      <p class="lead">How can we make the behaviour and decisions of AI systems observable, explainable, and accountable?</p>
-      <p>OXAI 2026 brings together researchers, practitioners, and other stakeholders to advance the state of the art and best practices in observability and explainability of AI systems. Observability provides the measurements, traces, and runtime evidence needed to understand internal states and behaviours. Explainability turns that evidence into understandable accounts of automated decisions, supporting trust, accountability, and compliance.</p>
-      <p>Building on OXAI 2024, this edition focuses on agentic AI systems that plan, use tools, maintain memory, and adapt under competing objectives. Particular attention will be given to explainable multi-objective optimization and to making trade-offs among quality, latency, cost, safety, privacy, security, sustainability, fairness, and accessibility observable and understandable.</p>
-      <p>We invite contributions on methods, architectures, tools, evaluations, governance mechanisms, and engineering practices. Our system-level perspective connects models and services with software architecture, cloud computing, data management, testing, operations, and responsible AI.</p>
-      <div class="deadline-banner"><strong>Submission deadline extended</strong><span>Talk abstracts: up to 2 pages · Papers: up to 4 pages<br><s>October 18, 2026 (AoE)</s><br><a href="#dates"><strong>Extended to Tuesday, October 20, 2026, at 11:59 PM AoE</strong></a></span></div>
-      <h3>Topics of interest</h3>
-      <p>Topics include, but are not limited to:</p>
-      <ul class="topics">
-        <li><strong>Observability in AI and Agent Systems:</strong> monitoring, logging, tracing, provenance, security telemetry, incident response, AgentOps/LLMOps/AIOps, and analysis of plans, memory, tool calls, interactions, and side effects.</li>
-        <li><strong>Explainability in AI Engineering:</strong> methods for explaining models and system behaviour, human-centred and accessible explanations, causal diagnosis, and metrics for explanation quality.</li>
-        <li><strong>Explainable Multi-Objective Optimization:</strong> agent planning, learning, and runtime adaptation under competing objectives; Pareto trade-offs; stakeholder-dependent preferences; and explanations of constraints and decisions.</li>
-        <li><strong>Human-Centred Quality Attributes and Governance:</strong> integrating equity, diversity, and inclusion (EDI) by design, fairness, and accessibility into stakeholder requirements, data, interfaces, and evaluation, while addressing privacy, regulatory compliance, oversight, recourse, contestability, and societal impacts of opaque AI systems.</li>
-        <li><strong>Case Studies, Tools, and Applications:</strong> empirical studies, benchmarks, demonstrations, experience reports, and industrial and cybersecurity applications of observable and explainable AI.</li>
-      </ul>
-      <h3>Participation and workshop format</h3>
-      <p>We welcome academic scholars, industry professionals, government researchers, and community-facing practitioners, including data scientists, machine learning engineers, software architects and developers, AIOps/DevOps practitioners, and researchers in responsible AI, cybersecurity, and governance. Participants at all experience levels are welcome.</p>
-      <p>The workshop combines two keynotes with sessions on understanding and explaining agent behaviour, diagnosing AI systems, and evaluating their outputs. See the <a href="#program">tentative program</a> for presentation times and session chairs.</p>
-    </section>
-    <section id="dates" aria-labelledby="dates-title">
-      <h2 id="dates-title">Important Dates</h2>
-      <dl class="dates">
-        <div><dt>Talk abstracts and papers</dt><dd><s>October 18, 2026 (AoE)</s><br><strong>Extended to <time datetime="2026-10-20T23:59:00-12:00">Tuesday, October 20, 2026, at 11:59 PM AoE</time></strong></dd></div>
-        <div><dt>Author notification</dt><dd><time datetime="2026-10-28">October 28, 2026</time></dd></div>
-        <div><dt>Final presenter materials and camera-ready papers</dt><dd><time datetime="2026-11-02">November 2, 2026</time></dd></div>
-        <div><dt>Workshop date</dt><dd><time datetime="2026-11-11">November 11, 2026</time></dd></div>
-        <div><dt>CASCON 2026</dt><dd>November 9–12, 2026</dd></div>
-      </dl>
-      <p class="note">AoE means Anywhere on Earth (UTC−12). OXAI takes place on the second day of CASCON programming, November 11. CASCON runs November 10–12, preceded by CSER on November 9.</p>
-    </section>
-    <section id="submission" aria-labelledby="submit-title">
-      <h2 id="submit-title">How to Submit</h2>
-      <p>We accept two submission types:</p>
-      <ul>
-        <li><strong>Talk abstract:</strong> up to 2 pages, outlining a proposed talk or demonstration.</li>
-        <li><strong>Paper:</strong> up to 4 pages, presenting research, work in progress, new ideas supported by evidence, experience reports, or industrial case studies.</li>
-      </ul>
-      <p>Both limits include all text, tables, figures, references, appendices, and other content.</p>
-      <p>Submit a single PDF in <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE double-column conference format</a> (24pt title, 10pt body text). For LaTeX, use <code>\documentclass[10pt,conference]{IEEEtran}</code> without <code>compsoc</code> or <code>compsocconf</code>. Submissions are not anonymous: include the title and all authors’ names, affiliations, email addresses, and public profile links in both talk abstracts and papers.</p>
-      <p>Following <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/">IEEE guidance on AI-generated content</a>, disclose such content in the acknowledgments, identifying the system used and affected sections, and cite the system where applicable. At least one author of each accepted contribution must register and present at the workshop.</p>
-      <p class="deadline-banner"><strong>Submissions are open through Microsoft CMT.</strong><span><s>October 18, 2026, 11:59 PM AoE</s><br><strong>Extended to Tuesday, October 20, 2026, at 11:59 PM Anywhere on Earth (AoE, UTC−12).</strong></span></p>
-      <a class="submit-link" href="https://cmt3.research.microsoft.com/OXAI2026">Submit through Microsoft CMT</a>
-      <p>Sign in to CMT or create a free account, then select <strong>Create new submission</strong> in the Author Console. Upload your PDF (maximum 10 MB), within the page limit for your submission type. For questions, <a href="#organizer-contact">contact the organizers</a>.</p>
-      <p><strong>Originality:</strong> Talk abstracts may describe previously published work; cite and link to the prior publication. Papers must present original, previously unpublished work. Ongoing and industrial work is welcome in either format, subject to these requirements.</p>
-      <p><strong>Publication:</strong> Accepted talk abstracts and papers will be included in the CASCON 2026 proceedings.</p>
-    </section>
-    <section id="organization" aria-labelledby="org-title">
-      <h2 id="org-title">Organization</h2>
-      <h3>Workshop organizers</h3>
-      <ol class="organizers">
-        <li><div class="organizer-contact"><a href="https://brocku.ca/mathematics-science/computer-science/faculty-staff/naser-ezzati-jivan/">Naser Ezzati-Jivan</a><a class="organizer-email" href="mailto:nezzatijivan@brocku.ca">nezzatijivan@brocku.ca</a></div><span>Brock University, Canada</span></li>
-        <li><div class="organizer-contact"><a href="https://www.uottawa.ca/faculty-engineering/school-electrical-engineering-computer-science/directory/Paria-Shirani">Paria Shirani</a><a class="organizer-email" href="mailto:pshirani@uottawa.ca">pshirani@uottawa.ca</a></div><span>University of Ottawa, Canada</span></li>
-        <li><div class="organizer-contact"><a href="https://users.encs.concordia.ca/~liu/">Yan Liu</a><a class="organizer-email" href="mailto:yan.liu@concordia.ca">yan.liu@concordia.ca</a></div><span>Concordia University, Canada</span></li>
-        <li><div class="organizer-contact"><a href="https://users.encs.concordia.ca/~abdelw/">Abdelwahab (Wahab) Hamou-Lhadj</a><a class="organizer-email" href="mailto:wahab.hamou-lhadj@concordia.ca">wahab.hamou-lhadj@concordia.ca</a></div><span>Concordia University, Canada</span></li>
-      </ol>
-      <h3 id="organizer-contact">Questions and enquiries</h3>
-      <p>For questions about the workshop, please contact the organizers listed above. Please submit contributions through <a href="https://cmt3.research.microsoft.com/OXAI2026">Microsoft CMT</a>.</p>
-    </section>
-    <section id="program-committee" aria-labelledby="pc-title">
-      <h2 id="pc-title">Program Committee</h2>
-      <ul class="organizers">
-        <li><strong>Paria Shirani</strong><span>University of Ottawa, Canada</span></li>
-        <li><strong>Yan Liu</strong><span>Concordia University, Canada</span></li>
-        <li><strong>Abdelwahab Hamou-Lhadj</strong><span>Concordia University, Canada</span></li>
-        <li><strong>Adel Abu Sitta</strong><span>Polytechnique Montréal, Canada</span></li>
-        <li><strong>Adel Belkhiri</strong><span>Polytechnique Montréal, Canada</span></li>
-        <li><strong>Leila Tahmooresnejad</strong><span>Brock University, Canada</span></li>
-        <li><strong>Majid Babaei</strong><span>University of the Fraser Valley, Canada</span></li>
-        <li><strong>Mahsa Panahandeh</strong><span>University of Ottawa, Canada</span></li>
-        <li><strong>Raphaël Khoury</strong><span>Université du Québec en Outaouais, Canada</span></li>
-        <li><strong>Sajal Saha</strong><span>Brock University, Canada</span></li>
-        <li><strong>Naser Ezzati-Jivan</strong><span>Brock University, Canada</span></li>
-      </ul>
-    </section>
-    <section id="past" aria-labelledby="past-title">
-      <h2 id="past-title">Past Editions</h2>
-      <p><a href="https://users.encs.concordia.ca/~abdelw/oxai2024/">OXAI 2024</a> — The 1st International Workshop on Observability and Explainability of AI Systems, held at CASCON on November 12, 2024, in Toronto, Canada.</p>
-    </section>
-  </main>
-  <footer>
-    <div class="container footer-content">
-    <section id="cmt-acknowledgment" aria-labelledby="cmt-title">
-      <h2 id="cmt-title">Microsoft CMT Acknowledgment</h2>
-      <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
-    </section>
-    <div class="footer-meta"><span>OXAI 2026 · Observability and Explainability of AI Systems</span><a href="https://conf.researchr.org/home/cascon-2026">CASCON 2026</a></div>
-    </div>
-  </footer>
-</body>
-</html>
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OXAI 2026 | Call for Contributions</title>
+  <meta name="description" content="The 2nd International Workshop on Observability and Explainability of AI Systems, co-located with CASCON 2026. Submission deadline extended to Tuesday, October 20, 2026, at 11:59 PM Anywhere on Earth (AoE). Submit a talk abstract of up to 2 pages or a paper of up to 4 pages.">
+  <link rel="canonical" href="https://oxai2026.github.io/">
+  <meta name="theme-color" content="#163b56">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23163b56'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='white' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%2368d1cb'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20261030-keynotes">
+</head>
+<body>
+  <a class="skip-link" href="#cfc">Skip to the call for contributions</a>
+  <header class="masthead">
+    <div class="container heading-layout">
+      <a class="wordmark" href="./" aria-label="OXAI 2026 home"><span class="logo-title">OX<span class="logo-ai">AI</span> 2026</span><span class="logo-description">AI Observability<br>&amp; Explainability</span></a>
+      <div>
+        <h1>The 2nd International Workshop on Observability and Explainability of AI Systems (OXAI 2026)</h1>
+        <div class="event-details">
+          <p>Wednesday, November 11, 2026<br>Toronto, Canada</p>
+          <p>Co-located with <a href="https://conf.researchr.org/home/cascon-2026">CASCON 2026</a><br>The International Conference on Collaborative Advances in Software and COmputiNg (CASCON)<br>November 9–12, 2026</p>
+        </div>
+      </div>
+    </div>
+    <nav class="container" aria-label="Main navigation">
+      <a href="#program">Tentative Program</a>
+      <a href="#keynotes">Keynote Speakers</a>
+      <a href="#cfc">Call for Contributions</a>
+      <a href="#dates">Important Dates</a>
+      <a href="#submission">How to Submit</a>
+      <a href="#organization">Organization</a>
+      <a href="#program-committee">Program Committee</a>
+      <a href="https://conf.researchr.org/attending/cascon-2026/registration">Registration</a>
+      <a href="#past">Past Editions</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="program" aria-labelledby="program-title">
+      <h2 id="program-title">Tentative Program</h2>
+      <p class="program-notice"><strong>Tentative program — subject to change.</strong><br>Wednesday, November 11, 2026. All times are local to Toronto.</p>
+      <div class="program-scroll" role="region" aria-label="Workshop schedule" tabindex="0">
+        <table class="program-table">
+          <thead><tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Chair</th></tr></thead>
+          <tbody>
+            <tr class="program-session"><th scope="row">14:45–14:50</th><td>Opening remarks</td><td>All four workshop chairs</td></tr>
+            <tr class="program-session"><th scope="row">14:50–15:35</th><td><a href="#keynote-1">Keynote 1 — Benjamin Fung: AI for Cybersecurity and National Security</a> — Talk and Q&amp;A</td><td>Paria Shirani</td></tr>
+            <tr class="program-session"><th scope="row">15:35–16:20</th><td>Session 1 — Understanding and Explaining Agent Behaviour</td><td>Abdelwahab Hamou-Lhadj</td></tr>
+            <tr><th scope="row">15:35–15:50</th><td>OS Noise for Agentic AI: A Kernel-Trace Study of How Container Resource Limits Slow Down and Break AI Coding Agents</td><td></td></tr>
+            <tr><th scope="row">15:50–16:05</th><td>Toward Kernel-Based Detection and Attribution of Agent Policy Violations</td><td></td></tr>
+            <tr><th scope="row">16:05–16:20</th><td>From Plausible Hypotheses to Evidence-Grounded Explanations: Lessons from AgentDebug</td><td></td></tr>
+            <tr class="program-session"><th scope="row">16:20–16:50</th><td>Break</td><td></td></tr>
+            <tr class="program-session"><th scope="row">16:50–17:35</th><td><a href="#keynote-2">Keynote 2 — Blessing Ogbuokiri: Beyond Demographics: Rethinking Fairness and Trustworthiness in AI - From Representation Geometry to Real-World Decisions</a> — Talk and Q&amp;A</td><td>Yan Liu</td></tr>
+            <tr class="program-session"><th scope="row">17:35–18:50</th><td>Session 2 — Diagnosing AI Systems and Evaluating Their Outputs</td><td>Naser Ezzati-Jivan</td></tr>
+            <tr><th scope="row">17:35–17:50</th><td>Engineering Explainability Across the AI Software Lifecycle<br><span class="note">Yan Liu — Concordia University</span></td><td></td></tr>
+            <tr><th scope="row">17:50–18:05</th><td>TraceAssist: Answering Kernel Trace Questions in Natural Language</td><td></td></tr>
+            <tr><th scope="row">18:05–18:20</th><td>LLM-based Vulnerability Repair: You Still Need All your Fingers</td><td></td></tr>
+            <tr><th scope="row">18:20–18:35</th><td>Explaining Continuous-Authentication Decisions Without Leaking the User</td><td></td></tr>
+            <tr><th scope="row">18:35–18:50</th><td>RL Data Efficiency Without Selection Efficiency: Reassessing Diagnostic-Diversity Sampling for Radiology Impression Generation</td><td></td></tr>
+            <tr class="program-session"><th scope="row">18:50–19:00</th><td>Joint discussion and closing remarks</td><td>All four workshop chairs</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="keynotes" aria-labelledby="keynotes-title">
+      <h2 id="keynotes-title">Keynote Speakers</h2>
+      <article class="keynote" id="keynote-1" aria-labelledby="keynote-1-title">
+        <div class="keynote-speaker">
+          <img src="assets/benjamin-fung.webp" alt="Benjamin Fung" width="220" height="220" loading="lazy">
+          <div><p class="eyebrow">Keynote 1</p><h3>Benjamin Fung</h3><p>School of Information Studies<br>McGill University</p><a href="https://dmas.lab.mcgill.ca/fung/">Research website</a></div>
+        </div>
+        <h3 id="keynote-1-title">AI for Cybersecurity and National Security</h3>
+        <p class="note">OXAI 2026 · November 11, 2026 · Toronto, Canada</p>
+        <h4>Abstract</h4><p>AI is reshaping the domains of cybersecurity and national security. Benjamin&#x27;s presentation explores three interconnected dimensions of this transformation. The first draws on his current work with Defence Research and Development Canada (DRDC), applying advanced AI methods to software and vulnerability analyses to strengthen the resilience of cyber-physical systems. The second turns to the geopolitical sphere, examining how foreign states have used generative AI in cognitive warfare and what lessons this holds for protecting Canada’s democratic processes from foreign interference. The third is a software demonstration of AI-powered visualization tools for unstructured open-source intelligence. Taken together, these three topics illustrate how AI simultaneously empowers defenders and adversaries.</p>
+        <h4>Biography</h4><p>Benjamin Fung is a Full Professor in the School of Information Studies (SIS) and an Associate Member in the School of Computer Science (SOCS) at McGill University. He is the Editor-in-Chief of Elsevier Sustainable Cities and Society: Advances (SCSADV) and an Associate Editor of ACM Transactions on Knowledge Discovery from Data (TKDD). He received a Ph.D. degree in computing science from Simon Fraser University in 2007, and was the Canada Research Chair in Data Mining for Cybersecurity from 2015 to 2025. Collaborating closely with the national defense, transportation, and healthcare sectors, he has over 300 refereed publications, with more than 19,000 citations (h-index 66), that span the research areas of data mining, machine learning, privacy protection, cybersecurity, and building engineering. His data mining works in crime investigation and authorship analysis have been reported by the media worldwide. For more information, visit his <a href="https://dmas.lab.mcgill.ca/fung/">research website</a>.</p>
+      </article>
+      <article class="keynote" id="keynote-2" aria-labelledby="keynote-2-title">
+        <div class="keynote-speaker">
+          <img src="assets/blessing-ogbuokiri.webp" alt="Blessing Ogbuokiri" width="800" height="952" loading="lazy">
+          <div><p class="eyebrow">Keynote 2</p><h3>Blessing Ogbuokiri</h3><p>Department of Computer Science<br>Brock University</p></div>
+        </div>
+        <h3 id="keynote-2-title">Beyond Demographics: Rethinking Fairness and Trustworthiness in AI - From Representation Geometry to Real-World Decisions</h3>
+        <p class="note">OXAI 2026 · November 11, 2026 · Toronto, Canada</p>
+        <h4>Abstract</h4><p>Artificial intelligence systems are increasingly deployed across diverse populations, institutions, and domains, yet conventional approaches to algorithmic fairness often focus primarily on predefined demographic groups and downstream prediction outcomes. This talk presents a broader perspective on fairness and trustworthiness in AI, examining how bias can emerge within learned representations, propagate into model predictions and explanations, and change as models move across domains and deployment settings. Drawing on recent research in contrastive and self-supervised learning, foundation models, healthcare AI, and explainable AI, the talk will explore methods for discovering latent subgroup disparities, measuring bias in representation spaces, and mitigating unfairness through fairness-aware sampling and optimization. It will also examine how apparently strong global performance can conceal subgroup disparities, including across healthcare institutions, and how model explanations may become unstable under domain shift even when predictive performance remains comparable. Together, these studies motivate a shift from viewing fairness as a single downstream metric toward treating it as a property that should be examined throughout the AI pipeline, from representation geometry to real-world decisions. The talk concludes by outlining ongoing directions toward AI systems that are not only accurate, but also fair, interpretable, robust, and trustworthy across diverse populations and contexts.</p>
+        <h4>Biography</h4><p>Dr. Blessing Ogbuokiri is an Assistant Professor in the Department of Computer Science at Brock University, Canada, and Director of the Responsible and Applied Machine Learning Laboratory (RAML Lab). His research expertise lies in responsible artificial intelligence (AI), AI safety, and machine learning, with a focus on fairness, transparency, and the trustworthy deployment of AI systems. He also works on advancing theoretical computing methods to improve the interpretability, fairness, and scalability of AI models. His research bridges fundamental algorithmic advances with real-world applications, particularly in healthcare and social good. Dr. Ogbuokiri has secured over $1.2 million in research funding, including support from the CIFAR AI Safety Solutions Network, the Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grants Program, the New Frontiers in Research Fund (NFRF), and Brock University. His research program seeks to advance AI systems that are not only accurate and scalable but also fair, interpretable, and trustworthy across diverse populations and real-world contexts.</p>
+      </article>
+    </section>
+    <section id="cfc" aria-labelledby="call-title">
+      <div class="section-heading"><p class="eyebrow">OXAI 2026</p><h2 id="call-title">Call for Contributions</h2></div>
+      <p class="lead">How can we make the behaviour and decisions of AI systems observable, explainable, and accountable?</p>
+      <p>OXAI 2026 brings together researchers, practitioners, and other stakeholders to advance the state of the art and best practices in observability and explainability of AI systems. Observability provides the measurements, traces, and runtime evidence needed to understand internal states and behaviours. Explainability turns that evidence into understandable accounts of automated decisions, supporting trust, accountability, and compliance.</p>
+      <p>Building on OXAI 2024, this edition focuses on agentic AI systems that plan, use tools, maintain memory, and adapt under competing objectives. Particular attention will be given to explainable multi-objective optimization and to making trade-offs among quality, latency, cost, safety, privacy, security, sustainability, fairness, and accessibility observable and understandable.</p>
+      <p>We invite contributions on methods, architectures, tools, evaluations, governance mechanisms, and engineering practices. Our system-level perspective connects models and services with software architecture, cloud computing, data management, testing, operations, and responsible AI.</p>
+      <div class="deadline-banner"><strong>Submission deadline extended</strong><span>Talk abstracts: up to 2 pages · Papers: up to 4 pages<br><s>October 18, 2026 (AoE)</s><br><a href="#dates"><strong>Extended to Tuesday, October 20, 2026, at 11:59 PM AoE</strong></a></span></div>
+      <h3>Topics of interest</h3>
+      <p>Topics include, but are not limited to:</p>
+      <ul class="topics">
+        <li><strong>Observability in AI and Agent Systems:</strong> monitoring, logging, tracing, provenance, security telemetry, incident response, AgentOps/LLMOps/AIOps, and analysis of plans, memory, tool calls, interactions, and side effects.</li>
+        <li><strong>Explainability in AI Engineering:</strong> methods for explaining models and system behaviour, human-centred and accessible explanations, causal diagnosis, and metrics for explanation quality.</li>
+        <li><strong>Explainable Multi-Objective Optimization:</strong> agent planning, learning, and runtime adaptation under competing objectives; Pareto trade-offs; stakeholder-dependent preferences; and explanations of constraints and decisions.</li>
+        <li><strong>Human-Centred Quality Attributes and Governance:</strong> integrating equity, diversity, and inclusion (EDI) by design, fairness, and accessibility into stakeholder requirements, data, interfaces, and evaluation, while addressing privacy, regulatory compliance, oversight, recourse, contestability, and societal impacts of opaque AI systems.</li>
+        <li><strong>Case Studies, Tools, and Applications:</strong> empirical studies, benchmarks, demonstrations, experience reports, and industrial and cybersecurity applications of observable and explainable AI.</li>
+      </ul>
+      <h3>Participation and workshop format</h3>
+      <p>We welcome academic scholars, industry professionals, government researchers, and community-facing practitioners, including data scientists, machine learning engineers, software architects and developers, AIOps/DevOps practitioners, and researchers in responsible AI, cybersecurity, and governance. Participants at all experience levels are welcome.</p>
+      <p>The workshop combines two keynotes with sessions on understanding and explaining agent behaviour, diagnosing AI systems, and evaluating their outputs. See the <a href="#program">tentative program</a> for presentation times and session chairs.</p>
+    </section>
+    <section id="dates" aria-labelledby="dates-title">
+      <h2 id="dates-title">Important Dates</h2>
+      <dl class="dates">
+        <div><dt>Talk abstracts and papers</dt><dd><s>October 18, 2026 (AoE)</s><br><strong>Extended to <time datetime="2026-10-20T23:59:00-12:00">Tuesday, October 20, 2026, at 11:59 PM AoE</time></strong></dd></div>
+        <div><dt>Author notification</dt><dd><time datetime="2026-10-28">October 28, 2026</time></dd></div>
+        <div><dt>Final presenter materials and camera-ready papers</dt><dd><time datetime="2026-11-02">November 2, 2026</time></dd></div>
+        <div><dt>Workshop date</dt><dd><time datetime="2026-11-11">November 11, 2026</time></dd></div>
+        <div><dt>CASCON 2026</dt><dd>November 9–12, 2026</dd></div>
+      </dl>
+      <p class="note">AoE means Anywhere on Earth (UTC−12). OXAI takes place on the second day of CASCON programming, November 11. CASCON runs November 10–12, preceded by CSER on November 9.</p>
+    </section>
+    <section id="submission" aria-labelledby="submit-title">
+      <h2 id="submit-title">How to Submit</h2>
+      <p>We accept two submission types:</p>
+      <ul>
+        <li><strong>Talk abstract:</strong> up to 2 pages, outlining a proposed talk or demonstration.</li>
+        <li><strong>Paper:</strong> up to 4 pages, presenting research, work in progress, new ideas supported by evidence, experience reports, or industrial case studies.</li>
+      </ul>
+      <p>Both limits include all text, tables, figures, references, appendices, and other content.</p>
+      <p>Submit a single PDF in <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE double-column conference format</a> (24pt title, 10pt body text). For LaTeX, use <code>\documentclass[10pt,conference]{IEEEtran}</code> without <code>compsoc</code> or <code>compsocconf</code>. Submissions are not anonymous: include the title and all authors’ names, affiliations, email addresses, and public profile links in both talk abstracts and papers.</p>
+      <p>Following <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/">IEEE guidance on AI-generated content</a>, disclose such content in the acknowledgments, identifying the system used and affected sections, and cite the system where applicable. At least one author of each accepted contribution must register and present at the workshop.</p>
+      <p class="deadline-banner"><strong>Submissions are open through Microsoft CMT.</strong><span><s>October 18, 2026, 11:59 PM AoE</s><br><strong>Extended to Tuesday, October 20, 2026, at 11:59 PM Anywhere on Earth (AoE, UTC−12).</strong></span></p>
+      <a class="submit-link" href="https://cmt3.research.microsoft.com/OXAI2026">Submit through Microsoft CMT</a>
+      <p>Sign in to CMT or create a free account, then select <strong>Create new submission</strong> in the Author Console. Upload your PDF (maximum 10 MB), within the page limit for your submission type. For questions, <a href="#organizer-contact">contact the organizers</a>.</p>
+      <p><strong>Originality:</strong> Talk abstracts may describe previously published work; cite and link to the prior publication. Papers must present original, previously unpublished work. Ongoing and industrial work is welcome in either format, subject to these requirements.</p>
+      <p><strong>Publication:</strong> Accepted talk abstracts and papers will be included in the CASCON 2026 proceedings.</p>
+    </section>
+    <section id="organization" aria-labelledby="org-title">
+      <h2 id="org-title">Organization</h2>
+      <h3>Workshop organizers</h3>
+      <ol class="organizers">
+        <li><div class="organizer-contact"><a href="https://brocku.ca/mathematics-science/computer-science/faculty-staff/naser-ezzati-jivan/">Naser Ezzati-Jivan</a><a class="organizer-email" href="mailto:nezzatijivan@brocku.ca">nezzatijivan@brocku.ca</a></div><span>Brock University, Canada</span></li>
+        <li><div class="organizer-contact"><a href="https://www.uottawa.ca/faculty-engineering/school-electrical-engineering-computer-science/directory/Paria-Shirani">Paria Shirani</a><a class="organizer-email" href="mailto:pshirani@uottawa.ca">pshirani@uottawa.ca</a></div><span>University of Ottawa, Canada</span></li>
+        <li><div class="organizer-contact"><a href="https://users.encs.concordia.ca/~liu/">Yan Liu</a><a class="organizer-email" href="mailto:yan.liu@concordia.ca">yan.liu@concordia.ca</a></div><span>Concordia University, Canada</span></li>
+        <li><div class="organizer-contact"><a href="https://users.encs.concordia.ca/~abdelw/">Abdelwahab (Wahab) Hamou-Lhadj</a><a class="organizer-email" href="mailto:wahab.hamou-lhadj@concordia.ca">wahab.hamou-lhadj@concordia.ca</a></div><span>Concordia University, Canada</span></li>
+      </ol>
+      <h3 id="organizer-contact">Questions and enquiries</h3>
+      <p>For questions about the workshop, please contact the organizers listed above. Please submit contributions through <a href="https://cmt3.research.microsoft.com/OXAI2026">Microsoft CMT</a>.</p>
+    </section>
+    <section id="program-committee" aria-labelledby="pc-title">
+      <h2 id="pc-title">Program Committee</h2>
+      <ul class="organizers">
+        <li><strong>Paria Shirani</strong><span>University of Ottawa, Canada</span></li>
+        <li><strong>Yan Liu</strong><span>Concordia University, Canada</span></li>
+        <li><strong>Abdelwahab Hamou-Lhadj</strong><span>Concordia University, Canada</span></li>
+        <li><strong>Adel Abu Sitta</strong><span>Polytechnique Montréal, Canada</span></li>
+        <li><strong>Adel Belkhiri</strong><span>Polytechnique Montréal, Canada</span></li>
+        <li><strong>Leila Tahmooresnejad</strong><span>Brock University, Canada</span></li>
+        <li><strong>Majid Babaei</strong><span>University of the Fraser Valley, Canada</span></li>
+        <li><strong>Mahsa Panahandeh</strong><span>University of Ottawa, Canada</span></li>
+        <li><strong>Raphaël Khoury</strong><span>Université du Québec en Outaouais, Canada</span></li>
+        <li><strong>Sajal Saha</strong><span>Brock University, Canada</span></li>
+        <li><strong>Naser Ezzati-Jivan</strong><span>Brock University, Canada</span></li>
+      </ul>
+    </section>
+    <section id="past" aria-labelledby="past-title">
+      <h2 id="past-title">Past Editions</h2>
+      <p><a href="https://users.encs.concordia.ca/~abdelw/oxai2024/">OXAI 2024</a> — The 1st International Workshop on Observability and Explainability of AI Systems, held at CASCON on November 12, 2024, in Toronto, Canada.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-content">
+    <section id="cmt-acknowledgment" aria-labelledby="cmt-title">
+      <h2 id="cmt-title">Microsoft CMT Acknowledgment</h2>
+      <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+    </section>
+    <div class="footer-meta"><span>OXAI 2026 · Observability and Explainability of AI Systems</span><a href="https://conf.researchr.org/home/cascon-2026">CASCON 2026</a></div>
+    </div>
+  </footer>
+</body>
+</html>
+
