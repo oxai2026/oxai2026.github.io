@@ -102,3 +102,6 @@ footer .footer-content { display: block; }
 .keynote h4{color:var(--navy);font-size:1.05rem;margin:1.3rem 0 .35rem}
 .keynote h4+p{margin-top:0}
 @media(max-width:700px){.keynote-speaker{grid-template-columns:120px 1fr;gap:1rem}.keynote-speaker img{width:120px;height:150px}.keynote-speaker h3{font-size:1.3rem}.masthead nav a{flex-basis:33%}}
+
+/* Author details below each contribution title. */
+.program-authors{margin-top:.5rem;font-size:.88rem;line-height:1.6;color:var(--muted);font-weight:400}
